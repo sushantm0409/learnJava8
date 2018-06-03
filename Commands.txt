@@ -1,6 +1,30 @@
-echo "# learnJava8" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/sushantm0409/learnJava8.git
-git push -u origin master
+   1  echo "# learnJava8" >> README.md
+    2  ls -l
+    3  git init
+    4  git add README.md
+    5  git commit -m "my first commit in my gitHub"
+    6  git config --global user.email "sushantm0409@gmail.com"
+    7  git config --global user.name "SUSH-VAIO"
+    8  git commit -m "my first commit in my gitHub"
+    9  git remote add origin https://github.com/sushantm0409/learnJava8.git
+   10  git push -u origin master
+   11  git checkout -b feature/flatmapExample
+   12  git add
+   13  git status
+   14  git add Commands.txt
+   15  git commit -m "my second commit"
+   16  git push
+   17  git push --set-upstream origin feature/flatmapExample
+   18  git checkout master
+   19  git pull
+   20  git status
+   21  git status
+   22  git add FlatMapExample/
+   23  git stash save "Example flatMap"
+   24  git pull
+   25  ls -l
+   26  git checkout -b feature/2ndExample
+   27  git stash pop
+   28  git commit
+   29  git commit -m "flatmap example"
+   30  git push --set-upstream origin feature/2ndExample
